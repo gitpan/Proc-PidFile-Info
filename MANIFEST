@@ -13,4 +13,5 @@ t/release-pod-coverage.t
 t/release-pod-syntax.t
 t/run/bar.pid
 t/run/foo.pid
+t/run/whitespace.pid
 t/service.pid

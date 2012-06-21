@@ -20,7 +20,7 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Proc::PidFile::Info",
   "PREREQ_PM" => {},
-  "VERSION" => "0.001",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }

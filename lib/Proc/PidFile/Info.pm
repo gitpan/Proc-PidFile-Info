@@ -103,6 +103,8 @@ sub _collect_info
             close $fh;
 
             chomp($pid);
+            $pid =~ s/^\s+//;
+            $pid =~ s/\s+$//;
             $info->{pid} = $pid;
         }
         else {
@@ -125,7 +127,7 @@ Proc::PidFile::Info - gather proces info from PID files
 
 =head1 VERSION
 
-version 0.001
+version 0.02
 
 =head1 SYNOPSIS
 

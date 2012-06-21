@@ -12,7 +12,4 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Proc-PidFile-Info
-resources:
-  bugtracker: https://github.com/kixx/Proc-PidFile-Info/issues
-  repository: git://github.com/kixx/Proc-PidFile-Info.git
-version: 0.001
+version: 0.02
